@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  	<run>
+  	<include name="gold" />
+  	<include name="silver" />
+  	<exclude name="iron"/>
+   	</run>
+  </groups>
+    <classes>
+    
+      <class name="Com_framework.Testng_Groups">
+      <methods>
+      <include name="testa"/>
+      </methods>
+      </class>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

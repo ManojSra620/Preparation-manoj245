@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Com_framework.Screenshot_Failure_TestNG_Listener"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Com_framework.Screenshot_Failure_TestNG_Listener">
+        <methods>
+          <include name="listener_test"/>
+        </methods>
+      </class> <!-- Com_framework.Screenshot_Failure_TestNG_Listener -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Parallel_Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="parallelTest(failed)">
+    <classes>
+      <class name="Com_framework.Parallel1">
+        <methods>
+          <include name="parallel1_3"/>
+          <include name="parallel1_2"/>
+          <include name="parallel1_1"/>
+        </methods>
+      </class> <!-- Com_framework.Parallel1 -->
+      <class name="Com_framework.Parallel2">
+        <methods>
+          <include name="parallel2_2"/>
+          <include name="parallel2_3"/>
+          <include name="parallel2_1"/>
+        </methods>
+      </class> <!-- Com_framework.Parallel2 -->
+    </classes>
+  </test> <!-- parallelTest(failed) -->
+</suite> <!-- Failed suite [Parallel_Suite] -->

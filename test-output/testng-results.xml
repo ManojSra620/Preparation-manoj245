@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T09:24:56Z" name="Default suite" finished-at="2023-03-07T09:24:56Z" duration-ms="128">
+    <groups>
+    </groups>
+    <test started-at="2023-03-07T09:24:56Z" name="Default test" finished-at="2023-03-07T09:24:56Z" duration-ms="128">
+      <class name="Com_framework.Date_Test">
+        <test-method signature="date_test()[pri:0, instance:Com_framework.Date_Test@bcef303]" started-at="2023-03-07T14:54:56Z" name="date_test" finished-at="2023-03-07T14:54:56Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date_test -->
+      </class> <!-- Com_framework.Date_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
