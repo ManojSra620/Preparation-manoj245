@@ -28,3 +28,13 @@ public class Access_Modifiers_Test1
 	}
 
 }
+ 
+class abc
+{
+	public static void mm()
+	{
+		Access_Modifiers_Test1 v=new Access_Modifiers_Test1();
+		// v. will not give private methods
+	}
+	 
+}

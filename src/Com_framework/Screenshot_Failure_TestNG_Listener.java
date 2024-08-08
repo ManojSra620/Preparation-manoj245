@@ -56,6 +56,7 @@ public class Screenshot_Failure_TestNG_Listener implements ITestListener
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
 		// TODO Auto-generated method stub
+		//ITestResult.
 		
 	}
 

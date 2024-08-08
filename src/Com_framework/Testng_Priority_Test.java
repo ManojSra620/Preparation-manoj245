@@ -36,4 +36,16 @@ public class Testng_Priority_Test
 		System.out.println("test5");
 	}
 
+	@Test(priority=-1)
+	public static void test7()
+	{
+		System.out.println("test7");
+	}
+	
+	@Test(priority=-2)
+	public static void test8()
+	{
+		System.out.println("test8");
+	}
+
 }

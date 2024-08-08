@@ -10,7 +10,7 @@ public class Encode_Decode
 	{
 		String s="MaNOJS*123";
 		Base64 b=new Base64();
-		byte[] by=b.encodeBase64(s.getBytes());
+		byte[] by=Base64.encodeBase64(s.getBytes());
 		
 		// cant we encode and convert string instead of byte
 	/*	
@@ -33,7 +33,7 @@ decode value is: MaNOJS@123
 		System.out.println("encoded value is: "+ new String(by));
 		
 		
-		byte[] dec=b.decodeBase64(by);
+		byte[] dec=Base64.decodeBase64(by);
 		System.out.println(dec);
 		//String m=
 		System.out.println("decode value is: "+new String(dec));

@@ -27,6 +27,7 @@ public class Array_list_TCS
 		s.add("Geography");
 		s.add("Hindi");
 		s.add("Science");
+		
 		System.out.println(s.subList(2, 5));
 		if (s.contains("His"))
 		{

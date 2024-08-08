@@ -16,7 +16,7 @@ public class Constructor_inherit_1
 	public Constructor_inherit_1(int a)
 	{
 		
-		System.out.println("method Constructor_inherit_1"+a);
+		System.out.println("method Constructor_inherit_1    :--"+a);
 	}
 
 }

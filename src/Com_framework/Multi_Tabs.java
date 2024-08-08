@@ -1,6 +1,7 @@
 package Com_framework;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -41,6 +42,7 @@ public class Multi_Tabs
 		d.switchTo().window(win2);
 		d.close();
 		d.switchTo().window(win1);
+		//d.switchTo().newWindow(WindowType.TAB).switchTo();
 		d.close();
 
 	}

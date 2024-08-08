@@ -8,6 +8,7 @@ public class String_operations
 		String m="kk";
 		//s==m;
 		
+		
 		StringBuffer sb=new StringBuffer(s);
 		sb.append(" Kumar");
 		sb.charAt(5);
@@ -21,10 +22,18 @@ public class String_operations
 		System.out.println(a);
 		int i=20;
 		String s1=String.valueOf(i);  //integer to string
-		System.out.println(s1);
+		System.out.println("value of s1: "+s1);
 		StringBuffer sbb=new StringBuffer(s1);
 		sbb.append(22);
 		System.out.println(sbb);
+		StringBuffer ss=new StringBuffer("property");
+		ss.append("of india");
+		System.out.println("ss value is ------- "+ss);
+		String mm=ss.toString();
+		System.out.println("string conversion "+mm);
+		ss.append(false);
+		System.out.println("boolean operations: "+ss);
+		
 		
 	
 	}

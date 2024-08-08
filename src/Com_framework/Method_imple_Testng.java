@@ -36,6 +36,7 @@ public Method_imple_Testng(WebDriver dd)  // dont use void when object is create
 	{
 		
 		d.findElement(By.name("q")).sendKeys(Keys.chord("open"+Keys.ENTER));
+	//	d.findElement(By.name("q")).sendKeys(Keys.chord(Keys.SHIFT,Keys.ENTER));
 		//d.findElement(By.xpath("(//input[@classname='gNO89b'])[2]")).click();
 		String actual=d.getTitle();
 		// Assert.assertEquals(actual, "open - Google Search");  // its void. you cannot print the out come of this assert statement.

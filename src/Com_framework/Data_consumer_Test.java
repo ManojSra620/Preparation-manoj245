@@ -2,7 +2,7 @@ package Com_framework;
 
 import org.testng.annotations.Test;
 
-public class Data_Provider_Test extends Data_Sender_Test
+public class Data_consumer_Test extends Data_Sender_Test
 {
 	
 	@Test(dataProvider = "datasender")

@@ -15,11 +15,18 @@ public class Date_Test
 		//System.out.println(f);
 		int i=Calendar.DAY_OF_MONTH;
 		System.out.println(Calendar.getInstance());
+		System.out.println(i);
+		System.out.println("************day of the month is: "+i);
 		
-		System.out.println("************day of the month is: ");
 		
 		//Calendar cl=new 
+		Date dd=new Date();
+		int hrs=dd.getHours();
+		int dy=dd.getDay();
+	int dte=	dd.getDate();
+		System.out.println(hrs+"*********"+dy+"//////////"+dte);
 		
 	}
+	
 
 }

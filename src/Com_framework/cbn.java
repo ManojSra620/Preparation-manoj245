@@ -14,6 +14,8 @@ abstract class Question_Tcs_bank
 		 
 	 }
 	 
+	 
+	 
 	 protected void reversereporate()
 	 {
 		 
@@ -32,6 +34,8 @@ abstract class Question_Tcs_bank
 	
 }
 
+
+
 class cbn extends Question_Tcs_bank
 {
 	@Test
@@ -41,5 +45,7 @@ class cbn extends Question_Tcs_bank
 	cbn c=new cbn();
 	System.out.println(c.getter());
 	}
+	
+	
 }
 

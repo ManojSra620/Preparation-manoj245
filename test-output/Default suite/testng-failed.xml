@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Com_framework.Data_Provider_Test">
+      <class name="prep.test">
         <methods>
-          <include name="f1" invocation-numbers="1 2"/>
+          <include name="a"/>
         </methods>
-      </class> <!-- Com_framework.Data_Provider_Test -->
+      </class> <!-- prep.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

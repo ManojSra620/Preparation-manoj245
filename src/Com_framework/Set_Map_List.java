@@ -3,6 +3,7 @@ package Com_framework;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -29,11 +30,14 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 	public static void main(String[] args) 
 	{
 		String lig="Manojs";
+		
 		List<String> li=new ArrayList<>();
 		li.add("Manojj");
 		li.add("Sra");
 		li.add(lig);
 		
+	//	Boolean b=li.contains("Manojj");
+		System.out.println("list values are: "+li);   // prints all declared values
 		for (int i = 0; i < li.size(); i++) 
 		{
 			
@@ -41,14 +45,20 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		System.out.println(li.get(i));
 		//System.out.println(li.equals(lig));
 	}
+		//int[5]= {1,2,3,4,5};
+		
+		
+		Map<Integer, String> mp=new HashedMap();
 		
 		
 		Queue<String> q=new ArrayQueue<>();
+		
 		
 		ArrayList<Integer> in=new ArrayList<Integer>();
 		in.add(2);
 		in.add(2); // queue allows duplicates
 		in.add(3);
+		
 		
 		in.add(31);
 		in.add(41);
@@ -59,6 +69,7 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		//System.out.println(in);
 		
 		List<String> ll=new LinkedList<>();
+		
 		ll.add("Benz");
 		ll.add("audi");
 		ll.add("VW");
@@ -74,9 +85,12 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		s.add("Pen");
 		s.add("pencil");
 		s.add("gen");
+		s.add("gen");
+		s.add("hen");
+		s.add("men");
 		//Iterator<String> i=s.iterator();
 		//System.out.println(i.next());
-		System.out.println("output is "+s);
+		System.out.println("output is**************** "+s);
 		System.out.println("set contains o/p "+s.contains("geno"));
 		Iterator<String> ii=s.iterator();
 		System.out.println(ii.next());
@@ -89,19 +103,22 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		}
 		
 		
-		Set<String> s1=new LinkedHashSet<>();  // treeset will save values in a sequence  // allows null (chk it ?)
+		SortedSet<String> s1=new TreeSet<>();  // treeset will save values in a sequence  // allows null (chk it ?)
 		s1.add("Penlink");
 		s1.add("pencillink");
 		s1.add("genlink");
 		s1.add("linkedhash");
+		s1.add("manojlink");
+		//s1.
 		
 		
 		//Iterator<String> i=s.iterator();
 		//System.out.println(i.next());
-		System.out.println("output is "+s1);
+		System.out.println("output is----------- "+s1);
 		System.out.println("linked hashset contains o/p "+s1.contains("geno"));
 		Iterator<String> ins=s1.iterator();
 		System.out.println(ins.next());
+		System.out.println("-----------"+ins.next());
 		
 		for (String j:s1) 
 		{
@@ -118,6 +135,8 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		ss.add(3);
 		ss.add(7);
 		ss.add(-1);
+		ss.add(68);
+		ss.add(333);
 		System.out.println(ss);
 		Iterator<Integer> iii=ss.iterator();
 		while (iii.hasNext()) 
@@ -136,9 +155,10 @@ import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 		m.put("Sra", "566");
 		m.put("Dad", "533");
 		m.put("Amma", "5556");
+		m.put("Amma", "5557");
 		//String k=m.get("Manoj");
 		//System.out.println(k);
-		System.out.println(m);
+		System.out.println("map values are:::"+m);
 		/*
 		Set<String> ll=m.keySet();
 		for(String st:ll)

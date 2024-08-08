@@ -25,6 +25,7 @@ public class Right_click
 	WebElement btn=d.findElement(By.xpath("//a[@class='btn btn-lg btn-success']"));
 	Thread.sleep(5000);
 	Actions a=new Actions(d);
+	// a.click(btn);
 	a.contextClick(btn).perform();
 	Thread.sleep(2000);
 	//d.switchTo().alert().accept();

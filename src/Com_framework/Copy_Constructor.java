@@ -33,17 +33,19 @@ public class Copy_Constructor
 	
 	Copy_Constructor (Copy_Constructor c)
 	{
-		int g=c.b;
+		int g=c.b;  // if int g=b is used, line 38 will print g value as 0. this.b will give 0.
 		c.cns();
-		System.out.println("copy cons"+g);
+		System.out.println("copy cons    ---"+g);
+	//	System.out.println("k value  ---"+c.k); c.k wont work
+		
 		
 	}
 	
 	Copy_Constructor ()
 	{
 		int g=this.b;
-		this.cns();
-		System.out.println("simple constructor"+g);
+		cns();// this.cns also works
+		System.out.println("simple constructor "+g);
 		// prints simple constructor0.  this.b can not be used to refer global variable b. so c.b is used and so the copy constructor
 
 		

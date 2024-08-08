@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="none" name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="extTest1(failed)">
+    <classes>
+      <class name="Com_framework.Extent_Test2">
+        <methods>
+          <include name="pass4"/>
+          <include name="ext_setup"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- Com_framework.Extent_Test2 -->
+      <class name="Com_framework.Extent_test">
+        <methods>
+          <include name="fail"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- Com_framework.Extent_test -->
+    </classes>
+  </test> <!-- extTest1(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

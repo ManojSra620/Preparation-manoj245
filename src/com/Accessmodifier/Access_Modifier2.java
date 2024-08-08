@@ -35,6 +35,8 @@ public class Access_Modifier2 extends Access_Modifiers_Test1
 		Access_Modifiers_Test1 am=new Access_Modifiers_Test1();
 		am.pubstb1();
 		am.puba1();
+		
+		
 		// u dont get aa.protc1 here.
 Access_Modifiers_Test1 m=new Access_Modifier2();//none of the methods of Access_Modifiers_Test1 can be called except public methods in Access_Modifiers_Test1
 

@@ -10,7 +10,7 @@ import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class TestNg_Data_Provider2 
 {

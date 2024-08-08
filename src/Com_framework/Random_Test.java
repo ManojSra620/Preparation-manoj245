@@ -9,11 +9,11 @@ public class Random_Test {
 		
 		int a[]=new int[6];
 		Random r=new Random();
-		int i=r.nextInt(9);
+		//int i=r.nextInt(9);
 		//System.out.println(i);
 		for(int j=0;j<5;j++)
 		{
-		a[j]=r.nextInt(6);	
+		a[j]=r.nextInt(89);	// 89 is maximum  limit
 		}
 		
 	for (int g:a)

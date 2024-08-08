@@ -18,7 +18,7 @@ abstract class ship
 	public int getter()
 	{
 		return maxspeed;
-	}
+	} 
 	
 	public String ptclr()
 	{

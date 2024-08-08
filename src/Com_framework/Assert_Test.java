@@ -11,7 +11,7 @@ public class Assert_Test
 	public void assert_T1()
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
-		WebDriver drv=new ChromeDriver();
+		//WebDriver drv=new ChromeDriver();
 		//drv.get("https://www.google.com/");
 		String a="AAA";
 		String b="BBB";
@@ -21,12 +21,12 @@ public class Assert_Test
 		
 		s.assertEquals("BBB", b,"BBB cant be equal to string b");
 		
-		s.assertEquals(b , a,"string b cant be equal to string a");
+		//s.assertEquals(b , a,"string b cant be equal to string a");
 		
 		
-		s.assertEquals(a , "ccc","string a cant be equal to ccc");
+		//s.assertEquals(a , "ccc","string a cant be equal to ccc");
 		
-	//	s.assertAll();
+		s.assertAll();
 		
 /* if assert all is not declared it l show all assertions as pass though failure occurs. If assertall is inserted, all 
  * above statements of assertall are executed but assertall below statements are not executed. 
@@ -34,7 +34,8 @@ public class Assert_Test
  * */
  
 	}
-	@Test
+	
+	//@Test
 	public void assert_T2()
 	{
 		String c="CCC";

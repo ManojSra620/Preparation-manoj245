@@ -2,15 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="Com_framework.Screenshot_Failure_TestNG_Listener"/>
+    <listener class-name="prep.p_retry_transformer_3"/>
   </listeners>
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="Com_framework.Screenshot_Failure_TestNG_Listener">
+      <class name="prep.rerun_fail_while_exe">
         <methods>
-          <include name="listener_test"/>
+          <include name="f2"/>
+          <include name="f4"/>
+          <include name="f1"/>
         </methods>
-      </class> <!-- Com_framework.Screenshot_Failure_TestNG_Listener -->
+      </class> <!-- prep.rerun_fail_while_exe -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

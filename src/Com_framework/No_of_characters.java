@@ -13,6 +13,7 @@ public class No_of_characters
 
 	{
 		String fn="manoj kumar sadasivuni";
+		
 		for (int i = 0; i <fn.length(); i++) 
 		{
 			Character c=fn.charAt(i);
@@ -35,6 +36,8 @@ public class No_of_characters
 		m.put("1", "Maanoj");
 		String s= m.get("1");
 		System.out.println(s);
+		System.out.println(m);
+		System.out.println("Hi");
 	}
 
 
