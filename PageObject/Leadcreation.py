@@ -1,0 +1,113 @@
+#LeadCreation
+btn_Loans="//div[normalize-space()='Loans']"
+DashboardVerification="xpath://li[normalize-space()='Dashboard']"
+Dashboard_close="xpath://i[normalize-space()='ဆ']"
+Snapmoney_dropdown="xpath://cite[normalize-space()='SnapMoney']"
+loansleads_btn="xpath://cite[normalize-space()='Loan Leads']"
+frame_selection="class:x-iframe"
+scroll_down="name:form_Lead_T_L"
+
+#Applicant form page
+newleadcreation="xpath://button[normalize-space()='NEW']"
+Salutation_selection="name:Salutations"
+customername="name:NAME"
+gender="name:lead_gender"
+txt_dob="name:dob"
+txt_email="name:email_add"
+check_box_Different_whatsappnum="xpath:(//label[@tabindex='0'])[1]"
+whats_app="id:Whatsapp_Num"
+txt_phone_number="name:PHONE_NUMBER"
+dropdown_loan_type="id:loanType"
+salarly_radio_btn="employmentType"
+lead_source="name:LEAD_SOURCE"
+lead_source_name="name:LEAD_SOURCE_NAME"
+txt_companyname="id:Company_Name"
+txt_experiance="id:Experience"
+txt_takehome="id:TAKE_HOME"
+txt_required_loanamount="id:LOAN_AMOUNT_REQUIRED"
+dropdown_loantenure="name:LoanTenure"
+txt_pincode="name:PINCODE"
+txt_location="id:LOCATION"
+
+#Existing loans(applicant details)
+radiobutton_ExistingLoans="xpath:(//label[@tabindex='0'])[2]"
+btn_addrow_ExistingLoans="xpath://button[normalize-space()='Add Row']"
+dropdown_bankname_ExistingLoans="id:bankName1"
+dropdown_loantype_Existingloans="id:loanType1"
+txt_loanamount_ExistingLoans="id:loanAmount1"
+txt_outstanding_ExistingLoans="id:currentOutstanding1"
+txt_Emi_ExistingLoans="id:emi1"
+txt_startdate_ExistingLoans="id:startDate1"
+btn_save_ExistingLoans="xpath://button[normalize-space()='Save Data']"
+
+#Credit card Oustanding(applicant details)
+radiobutton_creditoustanding="xpath:(//label[@tabindex='0'])[4]"
+dropdown_bankname_creditoustanding="class:unique-bankSelect"
+txt_creditlimit="xpath://input[@placeholder='Enter Credit Limit']"
+txt_creditoutstanding="//input[@placeholder='Enter Credit Outstanding']"
+txt_observations_creditoustanding="id:OBSERVATIONS"
+
+#image upload
+car_model="xpath:(//input[@id='documentUploadInput'])[1]"
+First_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+# image1_view="xpath://a[normalize-space()='View']"
+address_proof="xpath:(//input[@id='documentUploadInput'])[2]"
+Second_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+form_16="xpath:(//input[@id='documentUploadInput'])[3]"
+Third_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+bank_statements="xpath:(//input[@id='documentUploadInput'])[4]"
+Fourth_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+photo="xpath:(//input[@id='documentUploadInput'])[5]"
+Fifth_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+pay_slips="xpath:(//input[@id='documentUploadInput'])[6]"
+Sixth_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+PAN_Card="xpath:(//input[@id='documentUploadInput'])[7]"
+Seventh_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+Aadhar_Card="xpath:(//input[@id='documentUploadInput'])[8]"
+Eight_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+cibil_score="xpath:(//input[@id='documentUploadInput'])[9]"
+Nineth_upload="xpath:(//button[normalize-space()='Upload'])[1]"
+
+#Co-Applicant details
+radio_co_Applicant="xpath:(//label[@tabindex='0'])[8]"
+txt_Co_Applicant_Name="id:NAME_CO"
+txt_Co_Applicant_Phonenumber="id:PHONE_NUMBER_CO"
+txt_Co_Applicant_Gross="id:GROSS_CO"
+txt_Co_Applicant_Takehome="id:TAKE_HOME_CO"
+txt_Co_Applicant_Location="id:LOCATION_CO"
+txt_Co_Applicant_Pincode="id:PINCODE_CO"
+
+#Existing loans
+radiobutton_Existing="(//label[@tabindex='0'])[10]"
+bankname_co="xpath:(//span[@id='COA_EXISTING_LOANS_Bank_Name_CO'])[2]"
+txt_bankname="xpath://input[@class='grid-input']"
+loanamount_co="xpath:(//span[@class='tablesaw-cell-content'])[5]"
+txt_loanamount="xpath://input[@name='COA_EXISTING_LOANS_Loan_amount_CO_0']"
+coutstanding="xpath:(//span[@class='tablesaw-cell-content'])[6]"
+txt_coutstanding="xpath://input[@name='COA_EXISTING_LOANS_Current_outstanding_F_CO_0']"
+
+#Credit card oustanding
+radiobutton_credit_co="xpath:(//label[@tabindex='0'])[12]"
+txt_Co_Applicant_Creditlimit="id:Credit_Limit_CO"
+txt_Co_Applicant_Credit_outstanding="id:Current_Outstanding_CO"
+txt_remarks="id:REMARKS_CO"
+txt_Agent_name="id:AGENT_NAME"
+txt_Agent_Phonenumber="id:AGENT_PH_NUMBER"
+txt_dispositionstatus="id:DISPOSITION_STATUS"
+txt_dispositionnote="id:DISPOSITION_NOTE"
+
+#Assign-To
+dropdown_AssignTo="name:ASSIGN_TO"
+dropdown_status="name:STATUS"
+btn_overallSave="id:submit"
+
+App_number="xpath://input[@id='APPLICATION_NUM']"
+Application_number="xpath://td[@class='column_APPLICATION_NUM']"
+Search_bar="xpath://input[@id='d-3936232-fn_NAME']"
+Search_button="//input[@class='form-button btn button']"
+
+#Team lead
+Additional_documents="xpath://i[normalize-space()='ဆ']"
+App_numberlist="xpath://tr[@class='odd' or @class='even']/td[36]"
+application_list="//th[normalize-space()='Application No']"
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-07-22T15:56:28.624526" rpa="false" schemaversion="5">
+<suite id="s1" name="GherkhinDemo" source="C:\Users\Admin\PycharmProjects\SnapMoney\TestCases\GherkhinDemo.robot">
+<test id="s1-t1" name="TC01: SnapMoney Application launch" line="15">
+<kw name="Given user opens the browser">
+<kw name="Set Log Level" owner="BuiltIn">
+<arg>None</arg>
+<doc>Sets the log threshold to the specified level.</doc>
+<status status="PASS" start="2024-07-22T15:56:29.643732" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-22T15:56:29.643732" elapsed="7.071410"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-22T15:56:36.715142" elapsed="0.027228"/>
+</kw>
+<status status="PASS" start="2024-07-22T15:56:29.643732" elapsed="7.098638"/>
+</kw>
+<kw name="When user navigates to URL">
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-07-22T15:56:36.742370" elapsed="1.440381"/>
+</kw>
+<status status="PASS" start="2024-07-22T15:56:36.742370" elapsed="1.440381"/>
+</kw>
+<kw name="Then application will be launched">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<arg>//span[normalize-space()='SnapMoney']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-22T15:56:38.182751" elapsed="0.017858"/>
+</kw>
+<status status="PASS" start="2024-07-22T15:56:38.182751" elapsed="0.017858"/>
+</kw>
+<status status="PASS" start="2024-07-22T15:56:29.643732" elapsed="8.556877"/>
+</test>
+<status status="PASS" start="2024-07-22T15:56:28.624526" elapsed="9.576083"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="GherkhinDemo">GherkhinDemo</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-22T15:56:29.642684" level="ERROR">[ DataDriver ] Error in robot file:
+  File "C:\Users\Admin\PycharmProjects\SnapMoney\TestCases\GherkhinDemo.robot", line 0</msg>
+<msg time="2024-07-22T15:56:29.643732" level="ERROR">In source file:
+  File "C:\Users\Admin\PycharmProjects\SnapMoney\TestCases\..\TestData\Logindetails.xlsx", line 0</msg>
+<msg time="2024-07-22T15:56:29.643732" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: AttributeError: No "Test Template" keyword found for first test case.</msg>
+</errors>
+</robot>
