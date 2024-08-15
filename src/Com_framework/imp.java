@@ -71,7 +71,7 @@ abstract class ii
 		 System.out.println("int4 in interface");
 	 }
 	
-	 default void int5()
+	  default void int5()
 	 {
 		 System.out.println("int5 in interface");
 	 }

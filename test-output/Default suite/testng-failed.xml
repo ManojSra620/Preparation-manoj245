@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="prep.test">
+      <class name="prep.prep_transpose_matrix">
         <methods>
-          <include name="a"/>
+          <include name="transpose"/>
         </methods>
-      </class> <!-- prep.test -->
+      </class> <!-- prep.prep_transpose_matrix -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

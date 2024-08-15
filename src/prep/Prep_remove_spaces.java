@@ -13,6 +13,8 @@ public class Prep_remove_spaces
 			System.out.print(ss[i]);
 		}
 		
+		System.out.println(s.replaceAll(" ", ""));  // this also works
+		
 	}
 
 }

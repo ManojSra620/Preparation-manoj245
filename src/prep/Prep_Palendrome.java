@@ -6,7 +6,7 @@ public class Prep_Palendrome
 	@p_annotation_1
 	public static void main(String[] args) 
 	{
-		String s="w";
+		String s="wow";
 		
 		String r="";
 		StringBuffer sb=new StringBuffer(r);
